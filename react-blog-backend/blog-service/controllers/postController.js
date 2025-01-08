@@ -143,8 +143,8 @@ exports.createPost = async (req, res) => {
         // Clean up unused tags and categories:
             // Call cleanUpTags to remove tags that are no longer associated with any posts.
             // Call cleanUpCategories to remove categories that are no longer associated with any posts.
-            // Respond with a success message indicating the post and its associated data were deleted successfully.
-            // Use a try...catch block to handle errors and return a 500 Internal Server Error response in case of failures.
+        // Respond with a success message indicating the post and its associated data were deleted successfully.
+        // Use a try...catch block to handle errors and return a 500 Internal Server Error response in case of failures.
 
 // Update a post
 exports.updatePost = async (req, res) => {
@@ -178,5 +178,31 @@ exports.updatePost = async (req, res) => {
     res.json({ message: "Post updated successfully", post: updatedPost });
   } catch (error) {
     res.status(500).json({ message: "Failed to update post", error: error.message });
+  }
+};
+
+//Delete a post by ID
+exports.deletePost = async (req, res) => {
+  try {
+    console.log("Deleting post with ID:", req.params.id); // Log the post ID being deleted
+    const post = await Post.findById(req.params.id) // Find the post by ID
+    if(!post) {
+      return res.status(404).json({ message: "Post not found" }); // Return a 404 Not Found response if the post is not found
+    }
+    
+    if(post.author.toString() !== req.user.id) {
+      return res.status(403).json({ message: "You are not authorized to delete this post" }); // Return a 403 Forbidden response if the user is not the author of the post
+    }
+
+    await Like.deleteMany({ post: post._id }); // Delete all likes associated with the post
+    await Comment.deleteMany({ post: post._id }); // Delete all comments associated with the post
+    await post.deleteOne(); // Delete the post itself
+
+    cleanUpTags(); // Clean up unused tags
+    cleanUpCategories(); // Clean up unused categories
+
+    res.json({ message: "Post and associated data deleted successfully" }); // Respond with a success message
+  } catch (error) {
+    res.status(500).json({ message: "Failed to delete post", error: error.message }); // Return a 500 Internal Server Error response in case of failures
   }
 };

@@ -39,6 +39,7 @@ function Navigation() {
 
   const handleLogout = async () => {
     try {
+      console.log("Logging out..."); // Log the logout process
       await logout(); // Call the logout function from AuthContext
       console.log("User state cleared successfully."); // Log successful logout
       // Redirect the user to the login page after logout

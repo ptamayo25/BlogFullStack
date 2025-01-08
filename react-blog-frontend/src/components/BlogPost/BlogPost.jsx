@@ -37,63 +37,100 @@ function BlogPost({
 
   // Function to handle deleting a post
   const handleDelete = async () => {
+    const authUser = JSON.parse(localStorage.getItem("auth_user")); // Retrieve user authentication information
+    const token = authUser.token; // Extract the token for authentication
+    const currentUserId = authUser.id; // Extract the current user ID
+
+    console.log("token: ", token);
+
+    if (!token) {
+      alert("Authentication token not found. Please log in."); // Display alert if token is missing
+      return; // Return early if token is missing
+    }
+    if (currentUserId !== author) {
+      alert(
+        "You are restricted to delete this post, as you are not the owner."
+      ); // Display alert if user is not the author
+      return; // Return early if user is not the author
+    }
+    try {
+      const response = await fetch(
+        `${import.meta.env.VITE_API_URL}/api/posts/${id}`,
+        {
+          method: "DELETE", // Specify the HTTP method as DELETE
+          headers: { Authorization: `Bearer ${token}` }, // Include the Authorization header with the token
+        }
+      );
+      console.log(response);
+
+      if (response.ok) {
+        alert("Post deleted successfully!"); // Display success message
+        navigate("/"); // Redirect to the home page
+      } else {
+        throw new Error("Failed to delete the post. Please try again."); // Throw an error if deletion fails
+      }
+    } catch (error) {
+      alert(error); // Display error message
+      console.error("Error deleting post:", error); // Log the error
+    }
+
     // TODO
     // 1. Retrieve User Authentication Information
-          // Objective: Access the currently logged-in user's authentication details.
-          // Steps:
-                // Use localStorage.getItem("auth_user") to retrieve the stored user information.
-                // Parse the JSON string into an object using JSON.parse().
-                // Extract the token for authentication and currentUserId to identify the user.
-    
+    // Objective: Access the currently logged-in user's authentication details.
+    // Steps:
+    // Use localStorage.getItem("auth_user") to retrieve the stored user information.
+    // Parse the JSON string into an object using JSON.parse().
+    // Extract the token for authentication and currentUserId to identify the user.
+
     // 2. Check for User Authentication
-          // Objective: Ensure the user is logged in before proceeding.
-          // Steps:
-                // Verify that the token exists.
-                // If the token is missing, display an alert message:
-                // "Authentication token not found. Please log in."
-                // Terminate further execution by returning early.
-    
+    // Objective: Ensure the user is logged in before proceeding.
+    // Steps:
+    // Verify that the token exists.
+    // If the token is missing, display an alert message:
+    // "Authentication token not found. Please log in."
+    // Terminate further execution by returning early.
+
     // 3. Verify User Authorization
-          // Objective: Allow only the author of the post to delete it.
-          // Steps:
-                // Compare the author of the post with currentUserId.
-                // If they do not match, display an alert message:
-                // "You are restricted to delete this post, as you are not the owner."
-                // Prevent unauthorized deletion by returning early.
-    
+    // Objective: Allow only the author of the post to delete it.
+    // Steps:
+    // Compare the author of the post with currentUserId.
+    // If they do not match, display an alert message:
+    // "You are restricted to delete this post, as you are not the owner."
+    // Prevent unauthorized deletion by returning early.
+
     // 4. Send DELETE Request
-          // Objective: Communicate with the API to delete the post.
-          // Steps:
-                // Construct the API URL using the post ID:
-                // ${import.meta.env.VITE_API_URL}/api/posts/${id}.
-                // Use the fetch API to send a DELETE request:
-                // Include the Authorization header with the token.
-                // Specify the HTTP method as DELETE.
-                // Await the response from the server.
-    
+    // Objective: Communicate with the API to delete the post.
+    // Steps:
+    // Construct the API URL using the post ID:
+    // ${import.meta.env.VITE_API_URL}/api/posts/${id}.
+    // Use the fetch API to send a DELETE request:
+    // Include the Authorization header with the token.
+    // Specify the HTTP method as DELETE.
+    // Await the response from the server.
+
     // 5. Handle API Response
-          // Objective: Check if the post was deleted successfully.
-          // Steps:
-                // Use response.ok to verify the response status.
-                // If the response is not successful:
-                // Throw a new error with the message:
-                // "Failed to delete the post. Please try again."
-                // Display an alert message on success:
-                // "Post deleted successfully!"
-    
+    // Objective: Check if the post was deleted successfully.
+    // Steps:
+    // Use response.ok to verify the response status.
+    // If the response is not successful:
+    // Throw a new error with the message:
+    // "Failed to delete the post. Please try again."
+    // Display an alert message on success:
+    // "Post deleted successfully!"
+
     // 6. Redirect to Home Page
-          // Objective: Navigate to the home page after the post is deleted.
-          // Steps:
-                // Use the navigate("/") function to redirect the user to the home page.
-                // Ensure this step occurs only after successful deletion.
-    
+    // Objective: Navigate to the home page after the post is deleted.
+    // Steps:
+    // Use the navigate("/") function to redirect the user to the home page.
+    // Ensure this step occurs only after successful deletion.
+
     // 7. Handle Errors
-          // Objective: Gracefully handle any errors during the process.
-          // Steps:
-                // Use a try...catch block to wrap the logic.
-                // In the catch block:
-                // Display the error message using alert().
-                // Log the error for debugging purposes, if necessary.
+    // Objective: Gracefully handle any errors during the process.
+    // Steps:
+    // Use a try...catch block to wrap the logic.
+    // In the catch block:
+    // Display the error message using alert().
+    // Log the error for debugging purposes, if necessary.
   };
 
   const displayContent = isExpanded
@@ -195,7 +232,7 @@ function BlogPost({
         onClick={toggleExpanded} // Call toggleExpanded when clicked
         aria-expanded={isExpanded} //Aria label for accessibility
       >
-        {isExpanded ? "Read Less" : "Read More"} 
+        {isExpanded ? "Read Less" : "Read More"}
       </button>
       {!isPreview && ( //Show like button, comments and social share icons if it's not a preview
         <>
