@@ -151,8 +151,6 @@ function PostEditor({ post = {}, isDarkMode }) {
     setErrors(newErrors); //Update the errors state with the new errors
 
     if (Object.keys(newErrors).length === 0) {
-      if (!formData.id ) {   
-      // Proceed if there are no errors  Check if there are any errors after validation
       try {
         //Get the authentication token from local storage
         const { token } = JSON.parse(localStorage.getItem("auth_user") || "{}");
@@ -172,9 +170,11 @@ function PostEditor({ post = {}, isDarkMode }) {
           categories: [formData.category], // Wrap category in an array as the backend expects it
         };
 
-        const apiUrl = `${import.meta.env.VITE_API_URL}/api/posts`;
+        const apiUrl = formData.id
+          ? `${import.meta.env.VITE_API_URL}/api/posts/${formData.id}`
+          : `${import.meta.env.VITE_API_URL}/api/posts`;
 
-        const method = "POST";
+        const method = formData.id ? "PUT" : "POST";
 
         const response = await fetch(apiUrl, {
           //Send API request to create/update post
@@ -200,7 +200,6 @@ function PostEditor({ post = {}, isDarkMode }) {
       } catch (error) {
         alert(error.message); //Display error message to user in an alert box
       }
-    }
     } else {
       //Alert the user to fix errors before submitting.
       alert("Please fix the errors before publishing.");
