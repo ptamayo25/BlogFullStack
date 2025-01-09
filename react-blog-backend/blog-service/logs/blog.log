@@ -8457,3 +8457,169 @@
 {"level":30,"time":1736372550732,"pid":16908,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
 {"level":30,"time":1736372550734,"pid":16908,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
 {"level":30,"time":1736372550734,"pid":16908,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451284590,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1736451285203,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1736451325140,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451325144,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325144,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325266,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451325268,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325268,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325362,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451325364,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325364,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325456,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451325457,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325457,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325552,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451325554,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325554,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325647,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451325648,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325648,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325740,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451325742,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325742,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325840,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451325841,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325841,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325934,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451325935,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451325935,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451326029,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451326030,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451326030,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451326124,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451326125,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451326126,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451326220,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451326221,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451326221,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451329796,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451329797,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451329797,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451329899,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451329901,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451329901,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451366162,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"POST /api/posts - Request received"}
+{"level":30,"time":1736451366164,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451366164,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451366164,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"Received request to create a new post"}
+{"level":30,"time":1736451366269,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"Tags processed successfully"}
+{"level":30,"time":1736451366367,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"Categories processed successfully"}
+{"level":30,"time":1736451366428,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"Post created successfully"}
+{"level":30,"time":1736451367695,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451367697,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451367697,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451367852,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451367853,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451367853,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451367992,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451367993,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451367993,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451368135,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451368136,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451368137,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451368288,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451368290,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451368290,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451368424,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451368425,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451368425,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451417909,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"POST /api/posts - Request received"}
+{"level":30,"time":1736451417910,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451417910,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451417910,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"Received request to create a new post"}
+{"level":30,"time":1736451418067,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"Tags processed successfully"}
+{"level":30,"time":1736451418165,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"Categories processed successfully"}
+{"level":30,"time":1736451418211,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"Post created successfully"}
+{"level":30,"time":1736451422600,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451422602,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451422602,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451422747,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451422748,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451422748,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451422891,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451422892,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451422892,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451423037,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451423039,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451423039,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451423179,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451423181,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451423181,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451423343,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736451423344,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736451423344,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454578911,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454578912,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454578912,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454579060,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454579062,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454579062,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454579207,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454579208,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454579208,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454579345,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454579347,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454579347,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454579490,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454579492,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454579492,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454579632,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454579634,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454579634,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454579776,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454579777,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454579777,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454579921,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454579924,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454579924,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454580072,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454580074,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454580074,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454580219,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454580220,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454580220,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454580358,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454580359,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454580359,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454580490,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454580491,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454580491,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454599968,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454599969,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454599969,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454600188,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454600190,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454600190,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454600355,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454600356,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454600356,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454600498,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454600499,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454600500,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454600650,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454600651,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454600651,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454600818,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454600819,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454600819,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454601017,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454601018,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454601018,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454601174,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454601175,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454601175,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454601330,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454601332,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454601332,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454601479,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454601481,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454601481,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454601630,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454601632,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454601632,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454601795,"pid":22784,"hostname":"PriscillasMBP2.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1736454601796,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1736454601796,"pid":22784,"hostname":"PriscillasMBP2.lan","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
