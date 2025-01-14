@@ -59,4 +59,119 @@
           // POST /comments/:id → addComment
           // PUT /comments/:id → editComment
           // DELETE /comments/:id → deleteComment
+
+const mongoose = require("mongoose");
+const logger = require("../blogLogs/logger");
+const Comment = mongoose.model("Comment");
+const Post = mongoose.model("Post");
+
+// Fetch All Comments for a Post
+exports.getComments = async (req, res) => {
+  try {
+    const comments = await Comment.find({ post: req.params.id }).populate(
+      "author",
+      "name email"
+    );
+    res.json(comments);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+// Fetch a Single Comment by ID
+exports.getCommentById = async (req, res) => {
+  try {
+    const comment = await Comment.findById(req.params.id).populate("author");
+    if (!comment) {
+      return res.status(404).json({ message: "Comment not found" });
+    }
+    res.json(comment);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+// Add a New Comment
+exports.addComment = async (req, res) => {
+  try {
+    const content = req.body.content;
+    const postId = req.params.postId;
+    const post = await Post.findById(postId);
+
+    if (!post) {
+      return res.status(404).json({ message: "Post not found" });
+    }
+    console.log("content:", content);
+    console.log("user:", req.user);
+    console.log("postId:", post._id);
+
+    const comment = new Comment({
+      content: content,
+      author: req.user.id,
+      post: post._id,
+    });
+
+    await comment.save();
+    post.comments.push(comment.id);
+    await post.save();
+
+    logger.info("Comment added successfully", { commentId: comment._id });
+    res.status(201).json({ message: "Comment added successfully", comment });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+// Edit a Comment
+exports.editComment = async (req, res) => {
+  try {
+    const comment = await Comment.findById(req.params.id);
+    if (!comment) {
+      return res.status(404).json({ message: "Comment not found" });
+    }
+
+    if (req.user.id !== comment.author.toString()) {
+      return res
+        .status(403)
+        .json({ message: "You are not authorized to update this comment" });
+    }
+
+    comment.content = req.body.content;
+    await comment.save();
+
+    logger.info("Comment updated successfully", { commentId: comment._id });
+    res.json({ message: "Comment updated successfully", comment });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+// Delete a Comment by ID
+exports.deleteComment = async (req, res) => {
+  try {
+    const comment = await Comment.findById(req.params.id);
+    if (!comment) {
+      return res.status(404).json({ message: "Comment not found" });
+    }
+
+    if (req.user.id !== comment.id.toString()) {
+      return res
+        .status(403)
+        .json({ message: "You are not authorized to delete this comment" });
+    }
+
+    await comment.deleteOne();
+    await Post.updateOne(
+      { comments: req.params.id },
+      { $pull: { comments: req.params.id } }
+    );
+
+    logger.info("Comment deleted successfully", { commentId: comment._id });
+    res.json({ message: "Comment deleted successfully" });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+
           
