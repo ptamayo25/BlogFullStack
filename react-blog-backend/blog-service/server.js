@@ -27,7 +27,7 @@ app.use((req, res, next) => {
 
 // Routes
 app.use("/api/posts", postRoutes);
-app.use("/api/posts/:id/comments", commentRoutes);
+app.use("/api/posts/:postId/comments", commentRoutes);
 
 // MongoDB Connection
 mongoose

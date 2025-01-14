@@ -79,7 +79,7 @@ exports.getComments = async (req, res) => {
 };
 
 // Fetch a Single Comment by ID
-exports.getCommentbyID = async (req, res) => {
+exports.getCommentById = async (req, res) => {
   try {
     const comment = await Comment.findById(req.params.id).populate("author");
     if (!comment) {
@@ -95,16 +95,20 @@ exports.getCommentbyID = async (req, res) => {
 exports.addComment = async (req, res) => {
   try {
     const content = req.body.content;
-    const postId = req.params.id;
+    const postId = req.params.postId;
     const post = await Post.findById(postId);
+
     if (!post) {
       return res.status(404).json({ message: "Post not found" });
     }
+    console.log("content:", content);
+    console.log("user:", req.user);
+    console.log("postId:", post._id);
 
     const comment = new Comment({
       content: content,
       author: req.user.id,
-      postId: postId,
+      post: post._id,
     });
 
     await comment.save();

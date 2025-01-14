@@ -46,7 +46,8 @@
           // Ensure the router is imported and mounted in the main application file (e.g., app.js).
 
 const express = require("express");
-const router = express.Router();
+const router = express.Router({ mergeParams: true });
+const logger = require("../blogLogs/logger");
 
 const {
   getCommentById,
@@ -67,7 +68,7 @@ router.use((req, res, next) => {
 router.get("/:id", protect, getCommentById); // GET /api/comments/:id
 
 //Add a new comment
-router.post("/:id", protect, addComment); // POST /api/comments/:id
+router.post("/", protect, addComment); // POST /api/comments/
 
 //Edit a comment
 router.put("/:id", protect, editComment); // PUT /api/comments/:id
