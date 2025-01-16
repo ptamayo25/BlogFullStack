@@ -210,7 +210,46 @@ function CommentSection({ postId }) {
     // If successful, remove the deleted comment from the comments state to update the UI.
     // Handle any errors, providing meaningful feedback to the user.
     try {
-    } catch (error) {}
+      // Get the token and user ID from localStorage
+      const { token, id } = JSON.parse(localStorage.getItem("auth_user"));
+
+      // Check if the token exists
+      if (!token) {
+        alert("Authentication token not found. Please log in.");
+        return;
+      }
+
+      // Check if the user is authorized to delete the comment
+      if (id !== commentAuthorId) {
+        alert("You are not authorized to delete this comment.");
+        return;
+      }
+
+      const response = await fetch(
+        `${
+          import.meta.env.VITE_API_URL
+        }/api/posts/${postId}/comments/${commentId}`,
+        {
+          method: "DELETE",
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+
+      // Check if the response is ok before removing the comment
+      if (!response.ok) {
+        throw new Error("Failed to delete comment.");
+      }
+
+      // Remove the deleted comment from the comments state
+      setComments((prevComments) =>
+        prevComments.filter((comment) => comment._id !== commentId)
+      );
+    } catch (error) {
+      console.error("Error deleting comment:", error);
+      alert(error.message || "An error occurred while deleting the comment.");
+    }
   };
 
   // Function to toggle the visibility of the comments section

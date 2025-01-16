@@ -12069,3 +12069,85 @@
 {"level":30,"time":1736986903080,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts/6786a79a569cfe319af11063/comments/ - Request received"}
 {"level":30,"time":1736986903081,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
 {"level":30,"time":1736986903081,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065838946,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065838950,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065838950,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065840129,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065840130,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065840130,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065840373,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065840374,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065840374,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065840618,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065840619,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065840619,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065840868,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065840869,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065840869,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065841315,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065841316,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065841316,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065844007,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065844008,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065844008,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065844300,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065844301,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065844301,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065850028,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"DELETE /api/posts/67802526dd96ced438ce720e - Request received"}
+{"level":30,"time":1737065850029,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065850029,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065850977,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"Deleted unused tag: test"}
+{"level":30,"time":1737065850981,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"Deleted unused category: technology"}
+{"level":30,"time":1737065852576,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065852577,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065852578,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065912848,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065912849,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065912849,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065913087,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065913088,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065913088,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065913356,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065913357,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065913357,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065913608,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065913610,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065913610,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065913855,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065913856,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065913856,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065914094,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065914096,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065914096,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065914339,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065914341,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065914341,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065914580,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065914582,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065914582,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065916164,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065916165,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065916165,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065916413,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065916414,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065916414,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065916662,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065916663,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065916663,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065916722,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts/6786a79a569cfe319af11063/comments - Request received"}
+{"level":30,"time":1737065916722,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts/6786a79a569cfe319af11063/comments/ - Request received"}
+{"level":30,"time":1737065916723,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065916723,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065916804,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts/6786a79a569cfe319af11063/comments - Request received"}
+{"level":30,"time":1737065916804,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts/6786a79a569cfe319af11063/comments/ - Request received"}
+{"level":30,"time":1737065916806,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065916806,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065916909,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065916910,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065916910,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065917159,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065917161,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065917161,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065917411,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1737065917413,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"Token verification successful","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
+{"level":30,"time":1737065917413,"pid":74373,"hostname":"Priscillas-MacBook-Pro-2.local","message":"User authenticated successfully","userId":"677d7773be5468e1145d7338","email":"priscillatamayoeit@gmail.com"}
