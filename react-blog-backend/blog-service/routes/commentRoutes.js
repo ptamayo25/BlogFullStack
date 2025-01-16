@@ -50,6 +50,7 @@ const router = express.Router({ mergeParams: true });
 const logger = require("../blogLogs/logger");
 
 const {
+  getComments,
   getCommentById,
   addComment,
   editComment,
@@ -63,6 +64,8 @@ router.use((req, res, next) => {
   logger.info(`${req.method} ${req.baseUrl}${req.url} - Request received`);
   next();
 });
+//Fetch all comments for a post
+router.get("/", protect, getComments); // GET /api/comments/
 
 // Fetch a single comment by ID
 router.get("/:id", protect, getCommentById); // GET /api/comments/:id

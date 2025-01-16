@@ -68,7 +68,8 @@ const Post = mongoose.model("Post");
 // Fetch All Comments for a Post
 exports.getComments = async (req, res) => {
   try {
-    const comments = await Comment.find({ post: req.params.id }).populate(
+    console.log(req.params);
+    const comments = await Comment.find({ post: req.params.postId }).populate(
       "author",
       "name email"
     );
@@ -101,9 +102,6 @@ exports.addComment = async (req, res) => {
     if (!post) {
       return res.status(404).json({ message: "Post not found" });
     }
-    console.log("content:", content);
-    console.log("user:", req.user);
-    console.log("postId:", post._id);
 
     const comment = new Comment({
       content: content,
