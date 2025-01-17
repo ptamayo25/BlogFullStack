@@ -68,7 +68,6 @@ const Post = mongoose.model("Post");
 // Fetch All Comments for a Post
 exports.getComments = async (req, res) => {
   try {
-    console.log(req.params);
     const comments = await Comment.find({ post: req.params.postId }).populate(
       "author",
       "name email"

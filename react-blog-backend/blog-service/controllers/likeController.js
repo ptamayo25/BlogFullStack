@@ -48,3 +48,81 @@
             // Wrap the logic of each function in a try...catch block.
             // Log any errors to the console for debugging.
             // Respond with a 500 Internal Server Error status and a descriptive error message in case of failure.
+const mongoose = require("mongoose");
+const Like = mongoose.model("Like");
+const Post = mongoose.model("Post");
+
+// Add a like to a specific post by the current user
+exports.addLike = async (req, res) => {
+  try {
+    const post = await Post.findById(req.params.id);
+    if (!post) {
+      return res.status(404).json({ message: "Post not found" });
+    }
+
+    const existingLike = await Like.findOne({
+      user: req.user.id,
+      post: req.params.id,
+    });
+    if (existingLike) {
+      return res.status(400).json({ message: "Like already exists" });
+    }
+
+    const like = new Like({ user: req.user.id, post: req.params.id });
+    await like.save();
+
+    post.likes.push(like._id);
+    await post.save();
+
+    return res.status(201).json(like);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ message: error.message });
+  }
+};
+
+// Remove a like from a specific post by the current user
+exports.removeLike = async (req, res) => {
+  try {
+    const like = await Like.findOne({
+      user: req.user.id,
+      post: req.params.id,
+    });
+    if (!like) {
+      return res.status(404).json({ message: "Like not found" });
+    }
+
+    if (like.user.toString() !== req.user.id) {
+      return res
+        .status(403)
+        .json({ message: "Unauthorized to remove this like" });
+    }
+
+    await like.deleteOne();
+
+    const post = await Post.findById(req.params.id);
+    post.likes = post.likes.filter(
+      (id) => id.toString() !== like._id.toString()
+    );
+    await post.save();
+
+    return res.json({ message: "Like removed" });
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ message: error.message });
+  }
+};
+
+// Get all likes for a specific post
+exports.getLikesByPost = async (req, res) => {
+  try {
+    const likes = await Like.find({ post: req.params.id });
+
+    likes.populate("user", "email"); // need to figure out how to pull name and email from user
+
+    return res.json(likes);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ message: error.message });
+  }
+};
