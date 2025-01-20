@@ -116,9 +116,12 @@ exports.removeLike = async (req, res) => {
 // Get all likes for a specific post
 exports.getLikesByPost = async (req, res) => {
   try {
-    const likes = await Like.find({ post: req.params.id });
+    console.log("ptamayo1- in get likes fetch");
 
-    likes.populate("user", "email"); // need to figure out how to pull name and email from user
+    const likes = await Like.find({ post: req.params.id }).populate(
+      "user",
+      "name email"
+    ); // need to figure out how to pull name and email from user
 
     return res.json(likes);
   } catch (error) {

@@ -163,11 +163,11 @@ router.use("/likes", protect, async (req, res) => {
     logger.info(`Forwarding ${method} request to Blog Service: ${url}`); // Log the request being forwarded
     const response = await axios({
       method, // HTTP method (GET, POST, PUT, DELETE, etc.)
-      // url, // URL for the Blog Service
+      url, // URL for the Blog Service
       body: body, // Request body data
       headers: { Authorization: headers.authorization }, // Forward the Authorization header for authentication
     });
-    console.log("Request forwarded successfully"); // Log the success of the forwarding
+    console.log(" Likes Request forwarded successfully"); // Log the success of the forwarding
     res.status(response.status).json(response.body); // Send the response from the Blog Service back to the client
   } catch (error) {
     logger.error(
